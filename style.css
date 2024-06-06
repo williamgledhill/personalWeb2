@@ -1,0 +1,42 @@
+html {
+    font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth;
+}
+
+hr{
+    border-color: #374151;
+}
+
+#experienceCard, #projectCard{
+    transition: 0.2s ease 0s;
+}
+
+#experienceCard:hover{
+    transform: rotate3d(0, 0, 0, 0deg) translateY(0px);
+}
+
+#projectCard:hover{
+    scale: 105%;
+    cursor: pointer;
+    background-color: #111827;
+    .text-2xl{
+        text-decoration: underline;
+    }
+    box-shadow: 0px 0px 15px 2px #1F2937;
+}
+
+.bg-violet-500:hover{
+    background-color: #6C2BD9;
+}
+
+#cvLink:hover{
+    text-decoration: underline;
+}
+
+#fullPopup{
+    display: none;
+}
+
+#closePopup:hover, #closePopup:active{
+    background-color: #1F2937;
+}
